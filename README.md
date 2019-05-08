@@ -2,6 +2,12 @@
 
 My xmonad configuration (next generation).
 
+## Prerequisites
+
+* xmobar
+* dmenu
+* urxvt
+
 ## Installation
 
 ```
