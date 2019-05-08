@@ -8,10 +8,10 @@ meta = mod4Mask
 
 main = xmonad =<< xmobar myConfig
 
-myConfig = defaultConfig
+myConfig = def
     { modMask = meta
     , terminal = "urxvt"
-    , layoutHook = avoidStruts $ layoutHook defaultConfig
+    , layoutHook = avoidStruts $ layoutHook def
     }
     `additionalKeys` keyBindings
 
