@@ -11,9 +11,11 @@ main = xmonad =<< xmobar myConfig
 myConfig = def
     { modMask = meta
     , terminal = "urxvt"
-    , layoutHook = avoidStruts $ layoutHook def
+    , layoutHook = avoidStruts $ layouts
     }
     `additionalKeys` keyBindings
+
+layouts = Mirror $ Tall 1 (3/100) (1/2) ||| Full
 
 keyBindings =
     [
