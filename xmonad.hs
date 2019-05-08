@@ -1,12 +1,17 @@
 import XMonad
 import XMonad.Actions.CycleWS
 import XMonad.Util.EZConfig
+import XMonad.Hooks.ManageDocks
+import XMonad.Hooks.DynamicLog
 
 meta = mod4Mask
 
-main = xmonad $ defaultConfig
+main = xmonad =<< xmobar myConfig
+
+myConfig = defaultConfig
     { modMask = meta
     , terminal = "urxvt"
+    , layoutHook = avoidStruts $ layoutHook defaultConfig
     }
     `additionalKeys` keyBindings
 
