@@ -10,7 +10,7 @@ main = xmonad =<< xmobar myConfig
 
 myConfig =
   def { modMask            = meta
-      , terminal           = "urxvt"
+      , terminal           = "alacritty"
       , layoutHook         = avoidStruts $ layouts
       , borderWidth        = 6
       , focusedBorderColor = "#42adf4"

@@ -7,6 +7,7 @@ My xmonad configuration (next generation).
 * xmobar
 * dmenu
 * urxvt
+* alacritty
 
 ## Installation
 
