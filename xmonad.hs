@@ -18,7 +18,7 @@ myConfig =
     `additionalKeys` keyBindings
 
 layouts =
-   Tall 1 (3 / 100) (1 / 2) ||| (Mirror $ Tall 1 (3 / 100) (1 / 2)) ||| Full
+  (Mirror $ Tall 1 (3 / 100) (1 / 2)) ||| Tall 1 (3 / 100) (1 / 2) ||| Full
 
 keyBindings =
   [ ((meta, xK_f)    , toggleWS)
