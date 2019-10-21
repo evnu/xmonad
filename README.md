@@ -4,10 +4,10 @@ My xmonad configuration (next generation).
 
 ## Prerequisites
 
-* xmobar
+* xmobar (with [the config](https://github.com/evnu/xmobarrc))
 * dmenu
-* urxvt
 * alacritty
+* trayer (configured according to [my xinitrc](https://github.com/evnu/xmobarrc))
 
 ## Installation
 
