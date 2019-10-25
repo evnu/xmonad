@@ -8,6 +8,7 @@ My xmonad configuration (next generation).
 * dmenu
 * alacritty
 * trayer (configured according to [my xinitrc](https://github.com/evnu/xmobarrc))
+* slock
 
 ## Installation
 

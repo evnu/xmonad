@@ -24,4 +24,5 @@ keyBindings =
   [ ((meta, xK_f)    , toggleWS)
   , ((meta, xK_Left) , prevWS)
   , ((meta, xK_Right), nextWS)
+  , ((meta, xK_F12),   spawn "slock")
   ]
